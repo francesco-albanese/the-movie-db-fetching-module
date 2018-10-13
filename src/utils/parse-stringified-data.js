@@ -1,0 +1,1 @@
+export const parseStringifiedData = data => data && JSON.parse(data)
