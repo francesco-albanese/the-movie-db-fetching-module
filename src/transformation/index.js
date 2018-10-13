@@ -1,0 +1,1 @@
+export { transformLocaleResponse } from './locales.transform'
