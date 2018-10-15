@@ -1,0 +1,1 @@
+export { parseStringifiedData } from './parse-stringified-data'
