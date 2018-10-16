@@ -1,1 +1,1 @@
-export { getLocales } from './contentful'
+export * from './contentful'

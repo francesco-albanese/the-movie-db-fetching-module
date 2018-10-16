@@ -1,1 +1,1 @@
-export { transformLocaleResponse } from './locales.transform'
+export { transformLocaleResponse } from './locales/locales.transform'

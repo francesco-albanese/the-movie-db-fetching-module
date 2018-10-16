@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`transformLocaleResponse returns transformed locales 1`] = `
+Array [
+  Object {
+    "code": "en-GB",
+    "default": true,
+    "fallbackCode": null,
+    "name": "English (United Kingdom)",
+  },
+  Object {
+    "code": "it",
+    "default": false,
+    "fallbackCode": "en-GB",
+    "name": "Italian",
+  },
+]
+`;
