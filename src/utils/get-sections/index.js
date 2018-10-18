@@ -55,7 +55,9 @@ export const getSections = (page = {}, entries = []) => {
   if (sectionReference) {
     const { content } = sectionReference.fields
     const contentReference = content[ getFirstObjectKey(content) ]
+    
     const sectionTree = buildSectionTree(contentReference, entries)
+
     section[ sectionName ] = [ ...sectionTree ]
   }
 

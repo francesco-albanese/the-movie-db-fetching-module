@@ -1,4 +1,4 @@
-export const data = {
+export const rawData = {
   'sys': {
     'type': 'Array'
   },
@@ -392,3 +392,141 @@ export const data = {
     ]
   }
 }
+
+export const sections = {
+  'MainLayout': [
+    {
+      'name': {
+        'en-GB': 'Home'
+      },
+      'label': {
+        'it': 'Home',
+        'en-GB': 'Home'
+      },
+      'exact': {
+        'en-GB': false
+      },
+      'icon': {
+        'en-GB': 'Home'
+      },
+      'path': {
+        'it': '/it',
+        'en-GB': '/en'
+      }
+    },
+    {
+      'name': {
+        'en-GB': 'NowPlaying'
+      },
+      'label': {
+        'it': 'Adesso In Onda',
+        'en-GB': 'Now Playing'
+      },
+      'exact': {
+        'en-GB': false
+      },
+      'icon': {
+        'en-GB': 'PlayArrow'
+      },
+      'path': {
+        'it': '/adesso-in-onda',
+        'en-GB': '/now-playing'
+      }
+    },
+    {
+      'name': {
+        'en-GB': 'Popular'
+      },
+      'label': {
+        'it': 'Film Popolari',
+        'en-GB': 'Popular Movies'
+      },
+      'exact': {
+        'en-GB': false
+      },
+      'icon': {
+        'en-GB': 'LocalMovies'
+      },
+      'path': {
+        'it': '/popolari',
+        'en-GB': '/popular'
+      }
+    },
+    {
+      'name': {
+        'en-GB': 'TopRated'
+      },
+      'label': {
+        'it': 'Premiatissimi',
+        'en-GB': 'Top Rated'
+      },
+      'exact': {
+        'en-GB': false
+      },
+      'icon': {
+        'en-GB': 'StarRate'
+      },
+      'path': {
+        'it': '/premiatissimi',
+        'en-GB': '/top-rated'
+      }
+    },
+    {
+      'name': {
+        'en-GB': 'Upcoming'
+      },
+      'label': {
+        'it': 'In Arrivo',
+        'en-GB': 'Upcoming'
+      },
+      'exact': {
+        'en-GB': false
+      },
+      'icon': {
+        'en-GB': 'RecentActors'
+      },
+      'path': {
+        'it': '/in-arrivo',
+        'en-GB': '/upcoming'
+      }
+    }
+  ]
+}
+
+export const contentReference = [
+  {
+    'sys': {
+      'type': 'Link',
+      'linkType': 'Entry',
+      'id': '3ltD4NcKBiyM8AWgAuQuOY'
+    }
+  },
+  {
+    'sys': {
+      'type': 'Link',
+      'linkType': 'Entry',
+      'id': '3c9LYkKTnOyCCQekO0UgKE'
+    }
+  },
+  {
+    'sys': {
+      'type': 'Link',
+      'linkType': 'Entry',
+      'id': '1EVMMHxBg428Kqc6SYy0mm'
+    }
+  },
+  {
+    'sys': {
+      'type': 'Link',
+      'linkType': 'Entry',
+      'id': '625NZojfAQy6OUoKYSsEMy'
+    }
+  },
+  {
+    'sys': {
+      'type': 'Link',
+      'linkType': 'Entry',
+      'id': 've8S4UQXde0uwc6SKUWAQ'
+    }
+  }
+]

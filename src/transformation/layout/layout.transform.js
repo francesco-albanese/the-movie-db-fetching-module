@@ -11,7 +11,7 @@ export const transformLayoutResponse = data => {
   return items.map(template => {
 
     const sections = getSections(template, includes.Entry)
-
+    
     return {
       sections
     }
