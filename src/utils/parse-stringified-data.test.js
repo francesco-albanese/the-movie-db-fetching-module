@@ -11,4 +11,9 @@ describe('parseStringifiedData', () => {
     expect(result).toBeDefined()
     expect(expect.objectContaining({ a: 'test' }))
   })
+
+  it('returns data as is if data is not a string', () => {
+    const result = parseStringifiedData(7)
+    expect(result).toEqual(7)
+  })
 })

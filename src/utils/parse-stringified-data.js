@@ -1,7 +1,7 @@
-import { isEmpty } from 'lodash-es'
+import { isString } from 'lodash-es'
 
 export const parseStringifiedData = data => {
-  return isEmpty(data) 
-    ? null
+  return !isString(data) 
+    ? data
     : JSON.parse(data)
 }
