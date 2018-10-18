@@ -1,0 +1,1 @@
+export const getFirstObjectKey = obj => obj && !Array.isArray(obj) ? Object.keys(obj)[ 0 ] : undefined

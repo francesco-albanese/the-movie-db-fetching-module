@@ -44,7 +44,10 @@ module.exports = {
   resolve: {
     extensions: [ '.web.js', '.mjs', '.js', '.json' ],
     alias: {
-      '#': path.resolve(__dirname, src)
+      '#': path.resolve(__dirname, src),
+      '#contentful': path.resolve(__dirname, src, 'contentful'),
+      '#tmdb': path.resolve(__dirname, src, 'tmdb'),
+      '#transformation': path.resolve(__dirname, src, 'transformation')
     },
     plugins: [
       // Prevents users from importing files from outside of src/ (or node_modules/).
