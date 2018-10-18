@@ -1,4 +1,4 @@
-import { contentfulClient, urls } from './contentful.const'
+import { contentfulClient, urls } from '#contentful/contentful.const'
 import { transformLocaleResponse } from '#transformation'
 import { parseStringifiedData } from '#utils'
 

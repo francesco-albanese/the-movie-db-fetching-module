@@ -1,4 +1,4 @@
-import { getFirstObjectKey } from './get-first-object-key'
+import { getFirstObjectKey } from '.'
 
 describe('utils', () => {
   describe('getFirstObjectKey', () => {

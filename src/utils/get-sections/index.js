@@ -1,5 +1,5 @@
 import { getFirstObjectKey } from '#utils'
-
+import { isEmpty } from 'lodash-es'
 /**
  * Build a section tree starting from content reference
  * 
@@ -8,6 +8,10 @@ import { getFirstObjectKey } from '#utils'
  * @returns {Array} of transformed items
  */
 export const buildSectionTree = (content = [], entries = []) => {
+
+  if (isEmpty(content) || isEmpty(entries)) {
+    return []
+  }
 
   return content.map(content => {
 
@@ -32,6 +36,11 @@ export const buildSectionTree = (content = [], entries = []) => {
  * @returns {Array} of transformed Sections
  */
 export const getSections = (page = {}, entries = []) => {
+
+  if (isEmpty(page) || isEmpty(entries)) {
+    return {}
+  }
+
   const { fields } = page
   const { name, sections } = fields
 

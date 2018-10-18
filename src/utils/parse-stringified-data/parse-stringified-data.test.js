@@ -1,4 +1,4 @@
-import { parseStringifiedData } from './parse-stringified-data'
+import { parseStringifiedData } from '.'
 
 describe('utils', () => {
   describe('parseStringifiedData', () => {

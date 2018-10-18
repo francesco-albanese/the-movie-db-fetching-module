@@ -2,7 +2,6 @@ import { isEmpty } from 'lodash-es'
 import { getSections } from '#utils'
 
 export const transformLayoutResponse = data => {
-  
   if (isEmpty(data)) {
     return {}
   }

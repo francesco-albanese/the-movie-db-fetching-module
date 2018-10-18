@@ -2,7 +2,7 @@ import {
   contentTypes,
   contentfulClient, 
   urls 
-} from './contentful.const'
+} from '#contentful/contentful.const'
 import { transformLayoutResponse } from '#transformation'
 import { parseStringifiedData } from '#utils'
 
