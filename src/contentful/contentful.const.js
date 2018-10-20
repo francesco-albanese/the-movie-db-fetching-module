@@ -12,11 +12,12 @@ export const contentfulClient = axios.create({
 })
 
 export const contentTypes = {
-  layout: 'layout',
   asset: 'image',
+  layout: 'layout',
   link: 'link',
   section: 'section',
-  text: 'text'
+  text: 'text',
+  page: 'page'
 }
 
 export const urls = {

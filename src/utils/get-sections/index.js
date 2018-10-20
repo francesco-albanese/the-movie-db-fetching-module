@@ -19,7 +19,11 @@ export const buildSectionTree = (content = [], entries = []) => {
     
     if (linkReference) {
       const { fields } = linkReference
-      const link = { ...fields }
+      const { name } = fields
+      const referenceName = name[ getFirstObjectKey(name) ]
+      const link = { 
+        [ referenceName ]: { ...fields }
+      }
 
       return link
     }
@@ -42,10 +46,9 @@ export const getSections = (page = {}, entries = []) => {
   }
 
   const { fields } = page
-  const { name, sections } = fields
+  const { sections } = fields
 
   const section = {}
-  const sectionName = name[ getFirstObjectKey(name) ]
 
   const sectionReference = entries.find(entry => {
     const sectionId = sections[ getFirstObjectKey(sections) ][ 0 ].sys.id
@@ -53,7 +56,8 @@ export const getSections = (page = {}, entries = []) => {
   })
 
   if (sectionReference) {
-    const { content } = sectionReference.fields
+    const { content, name } = sectionReference.fields
+    const sectionName = name[ getFirstObjectKey(name) ]
     const contentReference = content[ getFirstObjectKey(content) ]
     
     const sectionTree = buildSectionTree(contentReference, entries)

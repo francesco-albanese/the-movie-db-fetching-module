@@ -3,7 +3,7 @@ import { getSections } from '#utils'
 
 export const transformLayoutResponse = data => {
   if (isEmpty(data)) {
-    return {}
+    return []
   }
 
   const { items, includes } = data
