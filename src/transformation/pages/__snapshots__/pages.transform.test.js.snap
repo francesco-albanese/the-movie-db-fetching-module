@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`transformPageResponse returns transformed pages 1`] = `
+Array [
+  Object {
+    "name": Object {
+      "en-GB": "NowPlaying",
+    },
+    "reference": Object {
+      "en-GB": "now-playing",
+    },
+    "sections": null,
+  },
+  Object {
+    "name": Object {
+      "en-GB": "Upcoming",
+    },
+    "reference": Object {
+      "en-GB": "upcoming",
+    },
+    "sections": null,
+  },
+  Object {
+    "name": Object {
+      "en-GB": "HomePage",
+    },
+    "reference": Object {
+      "en-GB": "home-page",
+    },
+    "sections": Object {
+      "SearchMovies": Array [
+        Object {
+          "SearchMoviesText": Object {
+            "lineOne": Object {
+              "en-GB": "Search Movies",
+              "it": "Cerca Film",
+            },
+            "name": Object {
+              "en-GB": "SearchMoviesText",
+            },
+          },
+        },
+      ],
+    },
+  },
+  Object {
+    "name": Object {
+      "en-GB": "TopRated",
+    },
+    "reference": Object {
+      "en-GB": "top-rated",
+    },
+    "sections": null,
+  },
+  Object {
+    "name": Object {
+      "en-GB": "PopularMovies",
+    },
+    "reference": Object {
+      "en-GB": "popular",
+    },
+    "sections": null,
+  },
+]
+`;
