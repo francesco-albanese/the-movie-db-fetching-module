@@ -394,100 +394,110 @@ export const rawData = {
 }
 
 export const sections = {
-  'MainLayout': [
+  'MainMenu': [
     {
-      'name': {
-        'en-GB': 'Home'
-      },
-      'label': {
-        'it': 'Home',
-        'en-GB': 'Home'
-      },
-      'exact': {
-        'en-GB': false
-      },
-      'icon': {
-        'en-GB': 'Home'
-      },
-      'path': {
-        'it': '/it',
-        'en-GB': '/en'
+      'Home': {
+        'name': {
+          'en-GB': 'Home'
+        },
+        'label': {
+          'it': 'Home',
+          'en-GB': 'Home'
+        },
+        'exact': {
+          'en-GB': false
+        },
+        'icon': {
+          'en-GB': 'Home'
+        },
+        'path': {
+          'it': '/it',
+          'en-GB': '/en'
+        }
       }
     },
     {
-      'name': {
-        'en-GB': 'NowPlaying'
-      },
-      'label': {
-        'it': 'Adesso In Onda',
-        'en-GB': 'Now Playing'
-      },
-      'exact': {
-        'en-GB': false
-      },
-      'icon': {
-        'en-GB': 'PlayArrow'
-      },
-      'path': {
-        'it': '/adesso-in-onda',
-        'en-GB': '/now-playing'
+      'NowPlaying': {
+        'name': {
+          'en-GB': 'NowPlaying'
+        },
+        'label': {
+          'it': 'Adesso In Onda',
+          'en-GB': 'Now Playing'
+        },
+        'exact': {
+          'en-GB': false
+        },
+        'icon': {
+          'en-GB': 'PlayArrow'
+        },
+        'path': {
+          'it': '/adesso-in-onda',
+          'en-GB': '/now-playing'
+        }
       }
     },
     {
-      'name': {
-        'en-GB': 'Popular'
-      },
-      'label': {
-        'it': 'Film Popolari',
-        'en-GB': 'Popular Movies'
-      },
-      'exact': {
-        'en-GB': false
-      },
-      'icon': {
-        'en-GB': 'LocalMovies'
-      },
-      'path': {
-        'it': '/popolari',
-        'en-GB': '/popular'
+      'Popular': {
+        'name': {
+          'en-GB': 'Popular'
+        },
+        'label': {
+          'it': 'Film Popolari',
+          'en-GB': 'Popular Movies'
+        },
+        'exact': {
+          'en-GB': false
+        },
+        'icon': {
+          'en-GB': 'LocalMovies'
+        },
+        'path': {
+          'it': '/popolari',
+          'en-GB': '/popular'
+        }
       }
     },
     {
-      'name': {
-        'en-GB': 'TopRated'
-      },
-      'label': {
-        'it': 'Premiatissimi',
-        'en-GB': 'Top Rated'
-      },
-      'exact': {
-        'en-GB': false
-      },
-      'icon': {
-        'en-GB': 'StarRate'
-      },
-      'path': {
-        'it': '/premiatissimi',
-        'en-GB': '/top-rated'
+      'TopRated': {
+        'name': {
+          'en-GB': 'TopRated'
+        },
+        'label': {
+          'it': 'Premiatissimi',
+          'en-GB': 'Top Rated'
+        },
+        'exact': {
+          'en-GB': false
+        },
+        'icon': {
+          'en-GB': 'StarRate'
+        },
+        'path': {
+          'it': '/premiatissimi',
+          'en-GB': '/top-rated'
+        }
       }
     },
     {
-      'name': {
-        'en-GB': 'Upcoming'
-      },
-      'label': {
-        'it': 'In Arrivo',
-        'en-GB': 'Upcoming'
-      },
-      'exact': {
-        'en-GB': false
-      },
-      'icon': {
-        'en-GB': 'RecentActors'
-      },
-      'path': {
-        'it': '/in-arrivo',
-        'en-GB': '/upcoming'
+      'Upcoming': {
+        'name': {
+          'en-GB': 'Upcoming'
+        },
+        'label': {
+          'it': 'In Arrivo',
+          'en-GB': 'Upcoming'
+        },
+        'exact': {
+          'en-GB': false
+        },
+        'icon': {
+          'en-GB': 'RecentActors'
+        },
+        'path': {
+          'it': '/in-arrivo',
+          'en-GB': '/upcoming'
+        }
       }
     }
   ]
