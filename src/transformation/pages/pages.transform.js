@@ -1,5 +1,14 @@
 import { isEmpty } from 'lodash-es'
-import { getSections } from '#utils'
+import { getFirstObjectKey, getSections } from '#utils'
+
+export const getPaths = (path = {}) => {
+  const pathList = Object.entries(path)
+
+  return pathList.reduce((paths, [ locale, path ]) => {
+    paths[ locale.substring(0, 2) ] = path
+    return paths
+  }, {})
+}
 
 export const transformPageResponse = data => {
   if (isEmpty(data)) {
@@ -12,6 +21,7 @@ export const transformPageResponse = data => {
 
     const { 
       name,
+      path,
       reference,
       sections 
     } = page.fields
@@ -20,9 +30,12 @@ export const transformPageResponse = data => {
       ? getSections(page, includes.Entry)
       : null
 
+    const paths = getPaths(path)
+
     const transformedPage = {
-      name,
-      reference,
+      name: name[ getFirstObjectKey(name) ],
+      paths,
+      reference: reference[ getFirstObjectKey(reference) ],
       sections: parsedSections
     }
     
