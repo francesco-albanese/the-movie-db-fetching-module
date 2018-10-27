@@ -9,7 +9,7 @@ export const transformLayoutResponse = data => {
   const { items, includes } = data
 
   return items.map(template => {
-
+    
     const sections = getSections(template, includes.Entry)
     
     return {

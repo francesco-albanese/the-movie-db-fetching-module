@@ -3,30 +3,35 @@
 exports[`transformPageResponse returns transformed pages 1`] = `
 Array [
   Object {
-    "name": Object {
-      "en-GB": "NowPlaying",
+    "name": "FavouritesPage",
+    "paths": Object {
+      "en": "/en/favourites",
+      "it": "/it/favoriti",
     },
-    "reference": Object {
-      "en-GB": "now-playing",
+    "reference": "favourites-page",
+    "sections": Object {
+      "Favourites": Array [
+        Object {
+          "MyFavourites": Object {
+            "lineOne": Object {
+              "en-GB": "My Favourites",
+              "it": "I miei preferiti",
+            },
+            "name": Object {
+              "en-GB": "MyFavourites",
+            },
+          },
+        },
+      ],
     },
-    "sections": null,
   },
   Object {
-    "name": Object {
-      "en-GB": "Upcoming",
+    "name": "HomePage",
+    "paths": Object {
+      "en": "/en",
+      "it": "/it",
     },
-    "reference": Object {
-      "en-GB": "upcoming",
-    },
-    "sections": null,
-  },
-  Object {
-    "name": Object {
-      "en-GB": "HomePage",
-    },
-    "reference": Object {
-      "en-GB": "home-page",
-    },
+    "reference": "home-page",
     "sections": Object {
       "SearchMovies": Array [
         Object {
@@ -44,22 +49,106 @@ Array [
     },
   },
   Object {
-    "name": Object {
-      "en-GB": "TopRated",
+    "name": "MovieDetailsPage",
+    "paths": Object {
+      "en": "/en/movie/:movieid",
+      "it": "/it/film/:movieid",
     },
-    "reference": Object {
-      "en-GB": "top-rated",
+    "reference": "movie-details-page",
+    "sections": Object {
+      "MovieDetails": Array [
+        Object {
+          "Title": Object {
+            "lineOne": Object {
+              "en-GB": "Title",
+              "it": "Titolo",
+            },
+            "lineTwo": Object {
+              "en-GB": "Tagline",
+              "it": "Citazione",
+            },
+            "name": Object {
+              "en-GB": "Title",
+            },
+          },
+        },
+        Object {
+          "Overview": Object {
+            "lineOne": Object {
+              "en-GB": "Overview",
+              "it": "Breve Descrizione",
+            },
+            "lineTwo": Object {
+              "en-GB": "Information",
+              "it": "Informazioni",
+            },
+            "name": Object {
+              "en-GB": "Overview",
+            },
+          },
+        },
+        Object {
+          "Genre": Object {
+            "lineOne": Object {
+              "en-GB": "Genre",
+              "it": "Genere",
+            },
+            "lineTwo": Object {
+              "en-GB": "Released",
+              "it": "Lancio",
+            },
+            "name": Object {
+              "en-GB": "Genre",
+            },
+          },
+        },
+        Object {
+          "Runtime": Object {
+            "lineOne": Object {
+              "en-GB": "Runtime",
+              "it": "Durata",
+            },
+            "lineTwo": Object {
+              "en-GB": "Rating",
+              "it": "Voto",
+            },
+            "name": Object {
+              "en-GB": "Runtime",
+            },
+          },
+        },
+        Object {
+          "Cast&Crew": Object {
+            "lineOne": Object {
+              "en-GB": "Cast and crew",
+              "it": "Squadra produzione",
+            },
+            "lineTwo": Object {
+              "en-GB": "Actors",
+              "it": "Attori",
+            },
+            "name": Object {
+              "en-GB": "Cast&Crew",
+            },
+          },
+        },
+        Object {
+          "DirectorsProducers": Object {
+            "lineOne": Object {
+              "en-GB": "Director",
+              "it": "Regista",
+            },
+            "lineTwo": Object {
+              "en-GB": "Producers",
+              "it": "Produttori",
+            },
+            "name": Object {
+              "en-GB": "DirectorsProducers",
+            },
+          },
+        },
+      ],
     },
-    "sections": null,
-  },
-  Object {
-    "name": Object {
-      "en-GB": "PopularMovies",
-    },
-    "reference": Object {
-      "en-GB": "popular",
-    },
-    "sections": null,
   },
 ]
 `;
