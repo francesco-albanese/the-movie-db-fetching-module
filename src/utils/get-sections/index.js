@@ -48,23 +48,30 @@ export const getSections = (page = {}, entries = []) => {
   const { fields } = page
   const { sections } = fields
 
-  const section = {}
-
-  const sectionReference = entries.find(entry => {
-    const sectionId = sections[ getFirstObjectKey(sections) ][ 0 ].sys.id
-    return entry.sys.id === sectionId
+  const sectionReferences = sections[ getFirstObjectKey(sections) ].map(section => {
+    return entries.find(entry => {
+      const sectionId = section.sys.id
+      return entry.sys.id === sectionId
+    })
   })
 
-  if (sectionReference) {
-    const { content, name } = sectionReference.fields
-    const sectionName = name[ getFirstObjectKey(name) ]
-    const contentReference = content[ getFirstObjectKey(content) ]
-    
-    const sectionTree = buildSectionTree(contentReference, entries)
+  if (!isEmpty(sectionReferences)) {
+    //use reduce on sectionReferences to repeat the following logic
 
-    section[ sectionName ] = [ ...sectionTree ]
+    const sections = sectionReferences.reduce((section, sectionReference) => {
+
+      const { content, name } = sectionReference.fields
+      const sectionName = name[ getFirstObjectKey(name) ]
+      const contentReference = content[ getFirstObjectKey(content) ]
+      
+      const sectionTree = buildSectionTree(contentReference, entries)
+  
+      section[ sectionName ] = [ ...sectionTree ]
+
+      return section
+    }, {})
+
+    return sections
   }
-
-  return section
   
 }
