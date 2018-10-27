@@ -3,16 +3,16 @@
 exports[`transformLocaleResponse returns transformed locales 1`] = `
 Array [
   Object {
-    "code": "en-GB",
+    "code": "en",
     "default": true,
-    "fallbackCode": null,
     "name": "English (United Kingdom)",
+    "path": "/en",
   },
   Object {
     "code": "it",
     "default": false,
-    "fallbackCode": "en-GB",
     "name": "Italian",
+    "path": "/it",
   },
 ]
 `;

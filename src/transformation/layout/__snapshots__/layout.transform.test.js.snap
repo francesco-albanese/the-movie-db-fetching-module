@@ -7,9 +7,6 @@ Array [
       "MainMenu": Array [
         Object {
           "Home": Object {
-            "exact": Object {
-              "en-GB": false,
-            },
             "icon": Object {
               "en-GB": "Home",
             },
@@ -24,13 +21,13 @@ Array [
               "en-GB": "/en",
               "it": "/it",
             },
+            "reference": Object {
+              "en-GB": "home",
+            },
           },
         },
         Object {
           "NowPlaying": Object {
-            "exact": Object {
-              "en-GB": false,
-            },
             "icon": Object {
               "en-GB": "PlayArrow",
             },
@@ -41,17 +38,13 @@ Array [
             "name": Object {
               "en-GB": "NowPlaying",
             },
-            "path": Object {
-              "en-GB": "/now-playing",
-              "it": "/adesso-in-onda",
+            "reference": Object {
+              "en-GB": "now-playing",
             },
           },
         },
         Object {
           "Popular": Object {
-            "exact": Object {
-              "en-GB": false,
-            },
             "icon": Object {
               "en-GB": "LocalMovies",
             },
@@ -62,17 +55,13 @@ Array [
             "name": Object {
               "en-GB": "Popular",
             },
-            "path": Object {
-              "en-GB": "/popular",
-              "it": "/popolari",
+            "reference": Object {
+              "en-GB": "popular",
             },
           },
         },
         Object {
           "TopRated": Object {
-            "exact": Object {
-              "en-GB": false,
-            },
             "icon": Object {
               "en-GB": "StarRate",
             },
@@ -83,17 +72,13 @@ Array [
             "name": Object {
               "en-GB": "TopRated",
             },
-            "path": Object {
-              "en-GB": "/top-rated",
-              "it": "/premiatissimi",
+            "reference": Object {
+              "en-GB": "top-rated",
             },
           },
         },
         Object {
           "Upcoming": Object {
-            "exact": Object {
-              "en-GB": false,
-            },
             "icon": Object {
               "en-GB": "RecentActors",
             },
@@ -104,9 +89,8 @@ Array [
             "name": Object {
               "en-GB": "Upcoming",
             },
-            "path": Object {
-              "en-GB": "/upcoming",
-              "it": "/in-arrivo",
+            "reference": Object {
+              "en-GB": "upcoming",
             },
           },
         },

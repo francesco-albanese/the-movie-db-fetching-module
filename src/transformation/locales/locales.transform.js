@@ -8,5 +8,18 @@ export const transformLocaleResponse = data => {
 
   const { locales } = data
   
-  return locales
+  return locales.map(locale => {
+
+    const {
+      code,
+      name
+    } = locale
+
+    return {
+      code: `${ code.substring(0, 2) }`,
+      name,
+      default: locale.default,
+      path: `/${ code.substring(0, 2) }`
+    }
+  })
 }

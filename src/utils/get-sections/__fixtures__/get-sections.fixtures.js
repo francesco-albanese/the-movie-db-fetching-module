@@ -45,7 +45,7 @@ export const rawData = {
           'id': '1EVMMHxBg428Kqc6SYy0mm',
           'type': 'Entry',
           'createdAt': '2018-10-15T20:53:47.692Z',
-          'updatedAt': '2018-10-15T20:53:47.692Z',
+          'updatedAt': '2018-10-25T20:43:20.751Z',
           'environment': {
             'sys': {
               'id': 'master',
@@ -53,7 +53,7 @@ export const rawData = {
               'linkType': 'Environment'
             }
           },
-          'revision': 1,
+          'revision': 3,
           'contentType': {
             'sys': {
               'type': 'Link',
@@ -70,15 +70,11 @@ export const rawData = {
             'it': 'Film Popolari',
             'en-GB': 'Popular Movies'
           },
-          'exact': {
-            'en-GB': false
-          },
           'icon': {
             'en-GB': 'LocalMovies'
           },
-          'path': {
-            'it': '/popolari',
-            'en-GB': '/popular'
+          'reference': {
+            'en-GB': 'popular'
           }
         }
       },
@@ -205,7 +201,7 @@ export const rawData = {
           'id': '3c9LYkKTnOyCCQekO0UgKE',
           'type': 'Entry',
           'createdAt': '2018-10-15T20:49:11.998Z',
-          'updatedAt': '2018-10-15T20:49:11.998Z',
+          'updatedAt': '2018-10-25T20:42:37.591Z',
           'environment': {
             'sys': {
               'id': 'master',
@@ -213,7 +209,7 @@ export const rawData = {
               'linkType': 'Environment'
             }
           },
-          'revision': 1,
+          'revision': 2,
           'contentType': {
             'sys': {
               'type': 'Link',
@@ -230,15 +226,11 @@ export const rawData = {
             'it': 'Adesso In Onda',
             'en-GB': 'Now Playing'
           },
-          'exact': {
-            'en-GB': false
-          },
           'icon': {
             'en-GB': 'PlayArrow'
           },
-          'path': {
-            'it': '/adesso-in-onda',
-            'en-GB': '/now-playing'
+          'reference': {
+            'en-GB': 'now-playing'
           }
         }
       },
@@ -254,7 +246,7 @@ export const rawData = {
           'id': '3ltD4NcKBiyM8AWgAuQuOY',
           'type': 'Entry',
           'createdAt': '2018-10-16T17:26:11.871Z',
-          'updatedAt': '2018-10-16T17:26:11.871Z',
+          'updatedAt': '2018-10-25T20:42:23.254Z',
           'environment': {
             'sys': {
               'id': 'master',
@@ -262,7 +254,7 @@ export const rawData = {
               'linkType': 'Environment'
             }
           },
-          'revision': 1,
+          'revision': 3,
           'contentType': {
             'sys': {
               'type': 'Link',
@@ -279,11 +271,11 @@ export const rawData = {
             'it': 'Home',
             'en-GB': 'Home'
           },
-          'exact': {
-            'en-GB': false
-          },
           'icon': {
             'en-GB': 'Home'
+          },
+          'reference': {
+            'en-GB': 'home'
           },
           'path': {
             'it': '/it',
@@ -303,7 +295,7 @@ export const rawData = {
           'id': '625NZojfAQy6OUoKYSsEMy',
           'type': 'Entry',
           'createdAt': '2018-10-15T21:03:38.135Z',
-          'updatedAt': '2018-10-15T21:03:38.135Z',
+          'updatedAt': '2018-10-25T20:43:36.915Z',
           'environment': {
             'sys': {
               'id': 'master',
@@ -311,7 +303,7 @@ export const rawData = {
               'linkType': 'Environment'
             }
           },
-          'revision': 1,
+          'revision': 2,
           'contentType': {
             'sys': {
               'type': 'Link',
@@ -328,15 +320,11 @@ export const rawData = {
             'it': 'Premiatissimi',
             'en-GB': 'Top Rated'
           },
-          'exact': {
-            'en-GB': false
-          },
           'icon': {
             'en-GB': 'StarRate'
           },
-          'path': {
-            'it': '/premiatissimi',
-            'en-GB': '/top-rated'
+          'reference': {
+            'en-GB': 'top-rated'
           }
         }
       },
@@ -352,7 +340,7 @@ export const rawData = {
           'id': 've8S4UQXde0uwc6SKUWAQ',
           'type': 'Entry',
           'createdAt': '2018-10-15T21:06:38.602Z',
-          'updatedAt': '2018-10-15T21:06:38.602Z',
+          'updatedAt': '2018-10-25T20:44:57.083Z',
           'environment': {
             'sys': {
               'id': 'master',
@@ -360,7 +348,7 @@ export const rawData = {
               'linkType': 'Environment'
             }
           },
-          'revision': 1,
+          'revision': 2,
           'contentType': {
             'sys': {
               'type': 'Link',
@@ -377,15 +365,11 @@ export const rawData = {
             'it': 'In Arrivo',
             'en-GB': 'Upcoming'
           },
-          'exact': {
-            'en-GB': false
-          },
           'icon': {
             'en-GB': 'RecentActors'
           },
-          'path': {
-            'it': '/in-arrivo',
-            'en-GB': '/upcoming'
+          'reference': {
+            'en-GB': 'upcoming'
           }
         }
       }
@@ -394,100 +378,94 @@ export const rawData = {
 }
 
 export const sections = {
-  'MainLayout': [
+  'MainMenu': [
     {
-      'name': {
-        'en-GB': 'Home'
-      },
-      'label': {
-        'it': 'Home',
-        'en-GB': 'Home'
-      },
-      'exact': {
-        'en-GB': false
-      },
-      'icon': {
-        'en-GB': 'Home'
-      },
-      'path': {
-        'it': '/it',
-        'en-GB': '/en'
+      'Home': {
+        'name': {
+          'en-GB': 'Home'
+        },
+        'label': {
+          'it': 'Home',
+          'en-GB': 'Home'
+        },
+        'icon': {
+          'en-GB': 'Home'
+        },
+        'reference': {
+          'en-GB': 'home'
+        },
+        'path': {
+          'it': '/it',
+          'en-GB': '/en'
+        }
       }
     },
     {
-      'name': {
-        'en-GB': 'NowPlaying'
-      },
-      'label': {
-        'it': 'Adesso In Onda',
-        'en-GB': 'Now Playing'
-      },
-      'exact': {
-        'en-GB': false
-      },
-      'icon': {
-        'en-GB': 'PlayArrow'
-      },
-      'path': {
-        'it': '/adesso-in-onda',
-        'en-GB': '/now-playing'
+      'NowPlaying': {
+        'name': {
+          'en-GB': 'NowPlaying'
+        },
+        'label': {
+          'it': 'Adesso In Onda',
+          'en-GB': 'Now Playing'
+        },
+        'icon': {
+          'en-GB': 'PlayArrow'
+        },
+        'reference': {
+          'en-GB': 'now-playing'
+        }
       }
     },
     {
-      'name': {
-        'en-GB': 'Popular'
-      },
-      'label': {
-        'it': 'Film Popolari',
-        'en-GB': 'Popular Movies'
-      },
-      'exact': {
-        'en-GB': false
-      },
-      'icon': {
-        'en-GB': 'LocalMovies'
-      },
-      'path': {
-        'it': '/popolari',
-        'en-GB': '/popular'
+      'Popular': {
+        'name': {
+          'en-GB': 'Popular'
+        },
+        'label': {
+          'it': 'Film Popolari',
+          'en-GB': 'Popular Movies'
+        },
+        'icon': {
+          'en-GB': 'LocalMovies'
+        },
+        'reference': {
+          'en-GB': 'popular'
+        }
       }
     },
     {
-      'name': {
-        'en-GB': 'TopRated'
-      },
-      'label': {
-        'it': 'Premiatissimi',
-        'en-GB': 'Top Rated'
-      },
-      'exact': {
-        'en-GB': false
-      },
-      'icon': {
-        'en-GB': 'StarRate'
-      },
-      'path': {
-        'it': '/premiatissimi',
-        'en-GB': '/top-rated'
+      'TopRated': {
+        'name': {
+          'en-GB': 'TopRated'
+        },
+        'label': {
+          'it': 'Premiatissimi',
+          'en-GB': 'Top Rated'
+        },
+        'icon': {
+          'en-GB': 'StarRate'
+        },
+        'reference': {
+          'en-GB': 'top-rated'
+        }
       }
     },
     {
-      'name': {
-        'en-GB': 'Upcoming'
-      },
-      'label': {
-        'it': 'In Arrivo',
-        'en-GB': 'Upcoming'
-      },
-      'exact': {
-        'en-GB': false
-      },
-      'icon': {
-        'en-GB': 'RecentActors'
-      },
-      'path': {
-        'it': '/in-arrivo',
-        'en-GB': '/upcoming'
+      'Upcoming': {
+        'name': {
+          'en-GB': 'Upcoming'
+        },
+        'label': {
+          'it': 'In Arrivo',
+          'en-GB': 'Upcoming'
+        },
+        'icon': {
+          'en-GB': 'RecentActors'
+        },
+        'reference': {
+          'en-GB': 'upcoming'
+        }
       }
     }
   ]

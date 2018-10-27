@@ -28,7 +28,7 @@ describe('utils', () => {
 
     it('returns a well formatted section tree', () => {
       const result = buildSectionTree(contentReference, rawData.includes.Entry)
-      expect(result).toEqual(sections.MainLayout)
+      expect(result).toEqual(sections.MainMenu)
     })
 
   })
