@@ -12,7 +12,7 @@ export const getPages = (locale = '*') => {
       content_type: contentTypes.page,
       include: 3,
       locale,
-      select: 'sys.id,fields.name,fields.reference,fields.sections'
+      select: 'sys.id,fields.name,fields.path,fields.reference,fields.sections'
     },
     transformResponse: [
       data => parseStringifiedData(data),
