@@ -5,7 +5,7 @@ import { isEmpty } from 'lodash-es'
  * 
  * @param content {Array} - content references
  * @param entries {Array} - Unordered list of entries from Contentful
- * @returns {Array} of transformed items
+ * @returns {Object} of transformed items
  */
 export const buildSectionTree = (content = [], entries = []) => {
 
@@ -13,7 +13,7 @@ export const buildSectionTree = (content = [], entries = []) => {
     return []
   }
 
-  return content.map(content => {
+  return content.reduce((link, content) => {
 
     const linkReference = entries.find(entry => entry.sys.id === content.sys.id)
     
@@ -21,15 +21,11 @@ export const buildSectionTree = (content = [], entries = []) => {
       const { fields } = linkReference
       const { name } = fields
       const referenceName = name[ getFirstObjectKey(name) ]
-      const link = { 
-        [ referenceName ]: { ...fields }
-      }
-
-      return link
+      link[ referenceName ] = { ...fields }
     }
 
-    return null
-  })
+    return link
+  }, {})
 }
 
 /**
@@ -37,7 +33,7 @@ export const buildSectionTree = (content = [], entries = []) => {
  * 
  * @param page    {Object}  - Page to which the Section belongs to
  * @param entries {Array}   - Unordered list of entries from Contentful
- * @returns {Array} of transformed Sections
+ * @returns {Object} of transformed Sections
  */
 export const getSections = (page = {}, entries = []) => {
 
@@ -56,7 +52,6 @@ export const getSections = (page = {}, entries = []) => {
   })
 
   if (!isEmpty(sectionReferences)) {
-    //use reduce on sectionReferences to repeat the following logic
 
     const sections = sectionReferences.reduce((section, sectionReference) => {
 
@@ -65,8 +60,8 @@ export const getSections = (page = {}, entries = []) => {
       const contentReference = content[ getFirstObjectKey(content) ]
       
       const sectionTree = buildSectionTree(contentReference, entries)
-  
-      section[ sectionName ] = [ ...sectionTree ]
+
+      section[ sectionName ] = sectionTree
 
       return section
     }, {})
