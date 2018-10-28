@@ -7,81 +7,81 @@ Array [
       "MainMenu": Object {
         "Home": Object {
           "icon": Object {
-            "en-GB": "Home",
+            "en": "Home",
           },
           "label": Object {
-            "en-GB": "Home",
+            "en": "Home",
             "it": "Home",
           },
           "name": Object {
-            "en-GB": "Home",
+            "en": "Home",
           },
           "path": Object {
-            "en-GB": "/en",
+            "en": "/en",
             "it": "/it",
           },
           "reference": Object {
-            "en-GB": "home",
+            "en": "home",
           },
         },
         "NowPlaying": Object {
           "icon": Object {
-            "en-GB": "PlayArrow",
+            "en": "PlayArrow",
           },
           "label": Object {
-            "en-GB": "Now Playing",
+            "en": "Now Playing",
             "it": "Adesso In Onda",
           },
           "name": Object {
-            "en-GB": "NowPlaying",
+            "en": "NowPlaying",
           },
           "reference": Object {
-            "en-GB": "now-playing",
+            "en": "now-playing",
           },
         },
         "Popular": Object {
           "icon": Object {
-            "en-GB": "LocalMovies",
+            "en": "LocalMovies",
           },
           "label": Object {
-            "en-GB": "Popular Movies",
+            "en": "Popular Movies",
             "it": "Film Popolari",
           },
           "name": Object {
-            "en-GB": "Popular",
+            "en": "Popular",
           },
           "reference": Object {
-            "en-GB": "popular",
+            "en": "popular",
           },
         },
         "TopRated": Object {
           "icon": Object {
-            "en-GB": "StarRate",
+            "en": "StarRate",
           },
           "label": Object {
-            "en-GB": "Top Rated",
+            "en": "Top Rated",
             "it": "Premiatissimi",
           },
           "name": Object {
-            "en-GB": "TopRated",
+            "en": "TopRated",
           },
           "reference": Object {
-            "en-GB": "top-rated",
+            "en": "top-rated",
           },
         },
         "Upcoming": Object {
           "icon": Object {
-            "en-GB": "RecentActors",
+            "en": "RecentActors",
           },
           "label": Object {
-            "en-GB": "Upcoming",
+            "en": "Upcoming",
             "it": "In Arrivo",
           },
           "name": Object {
-            "en-GB": "Upcoming",
+            "en": "Upcoming",
           },
           "reference": Object {
-            "en-GB": "upcoming",
+            "en": "upcoming",
           },
         },
       },

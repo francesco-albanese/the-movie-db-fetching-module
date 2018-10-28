@@ -9,7 +9,7 @@ import { isEmpty } from 'lodash-es'
 const validLocales = [ 'en', 'it' ]
 
 export const localifyObjectKeys = obj => {
-  if (isEmpty(obj)) {
+  if (isEmpty(obj) || Array.isArray(obj)) {
     return {}
   }
 

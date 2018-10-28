@@ -13,11 +13,11 @@ Array [
       "Favourites": Object {
         "MyFavourites": Object {
           "lineOne": Object {
-            "en-GB": "My Favourites",
+            "en": "My Favourites",
             "it": "I miei preferiti",
           },
           "name": Object {
-            "en-GB": "MyFavourites",
+            "en": "MyFavourites",
           },
         },
       },
@@ -34,11 +34,11 @@ Array [
       "SearchMovies": Object {
         "SearchMoviesText": Object {
           "lineOne": Object {
-            "en-GB": "Search Movies",
+            "en": "Search Movies",
             "it": "Cerca Film",
           },
           "name": Object {
-            "en-GB": "SearchMoviesText",
+            "en": "SearchMoviesText",
           },
         },
       },
@@ -55,80 +55,80 @@ Array [
       "MovieDetails": Object {
         "Cast&Crew": Object {
           "lineOne": Object {
-            "en-GB": "Cast and crew",
+            "en": "Cast and crew",
             "it": "Squadra produzione",
           },
           "lineTwo": Object {
-            "en-GB": "Actors",
+            "en": "Actors",
             "it": "Attori",
           },
           "name": Object {
-            "en-GB": "Cast&Crew",
+            "en": "Cast&Crew",
           },
         },
         "DirectorsProducers": Object {
           "lineOne": Object {
-            "en-GB": "Director",
+            "en": "Director",
             "it": "Regista",
           },
           "lineTwo": Object {
-            "en-GB": "Producers",
+            "en": "Producers",
             "it": "Produttori",
           },
           "name": Object {
-            "en-GB": "DirectorsProducers",
+            "en": "DirectorsProducers",
           },
         },
         "Genre": Object {
           "lineOne": Object {
-            "en-GB": "Genre",
+            "en": "Genre",
             "it": "Genere",
           },
           "lineTwo": Object {
-            "en-GB": "Released",
+            "en": "Released",
             "it": "Lancio",
           },
           "name": Object {
-            "en-GB": "Genre",
+            "en": "Genre",
           },
         },
         "Overview": Object {
           "lineOne": Object {
-            "en-GB": "Overview",
+            "en": "Overview",
             "it": "Breve Descrizione",
           },
           "lineTwo": Object {
-            "en-GB": "Information",
+            "en": "Information",
             "it": "Informazioni",
           },
           "name": Object {
-            "en-GB": "Overview",
+            "en": "Overview",
           },
         },
         "Runtime": Object {
           "lineOne": Object {
-            "en-GB": "Runtime",
+            "en": "Runtime",
             "it": "Durata",
           },
           "lineTwo": Object {
-            "en-GB": "Rating",
+            "en": "Rating",
             "it": "Voto",
           },
           "name": Object {
-            "en-GB": "Runtime",
+            "en": "Runtime",
           },
         },
         "Title": Object {
           "lineOne": Object {
-            "en-GB": "Title",
+            "en": "Title",
             "it": "Titolo",
           },
           "lineTwo": Object {
-            "en-GB": "Tagline",
+            "en": "Tagline",
             "it": "Citazione",
           },
           "name": Object {
-            "en-GB": "Title",
+            "en": "Title",
           },
         },
       },
