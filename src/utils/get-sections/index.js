@@ -1,4 +1,4 @@
-import { getFirstObjectKey } from '#utils'
+import { getFirstObjectKey, localifyObjectKeys } from '#utils'
 import { isEmpty } from 'lodash-es'
 /**
  * Build a section tree starting from content reference
@@ -21,7 +21,14 @@ export const buildSectionTree = (content = [], entries = []) => {
       const { fields } = linkReference
       const { name } = fields
       const referenceName = name[ getFirstObjectKey(name) ]
-      link[ referenceName ] = { ...fields }
+
+      const localifiedFields = Object.entries(fields).reduce((localifiedFields, [ key, value ]) => {
+        const localifiedValue = localifyObjectKeys(value)
+        localifiedFields[ key ] = localifiedValue
+        return localifiedFields
+      }, {})
+
+      link[ referenceName ] = { ...localifiedFields }
     }
 
     return link

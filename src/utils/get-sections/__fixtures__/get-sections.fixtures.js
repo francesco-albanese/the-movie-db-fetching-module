@@ -542,104 +542,104 @@ export const sections = {
   'MainMenu': {
     'NowPlaying': {
       'name': {
-        'en-GB': 'NowPlaying'
+        'en': 'NowPlaying'
       },
       'label': {
         'it': 'Adesso In Onda',
-        'en-GB': 'Now Playing'
+        'en': 'Now Playing'
       },
       'icon': {
-        'en-GB': 'PlayArrow'
+        'en': 'PlayArrow'
       },
       'reference': {
-        'en-GB': 'now-playing'
+        'en': 'now-playing'
       }
     },
     'Popular': {
       'name': {
-        'en-GB': 'Popular'
+        'en': 'Popular'
       },
       'label': {
         'it': 'Film Popolari',
-        'en-GB': 'Popular Movies'
+        'en': 'Popular Movies'
       },
       'icon': {
-        'en-GB': 'LocalMovies'
+        'en': 'LocalMovies'
       },
       'reference': {
-        'en-GB': 'popular'
+        'en': 'popular'
       }
     },
     'TopRated': {
       'name': {
-        'en-GB': 'TopRated'
+        'en': 'TopRated'
       },
       'label': {
         'it': 'Premiatissimi',
-        'en-GB': 'Top Rated'
+        'en': 'Top Rated'
       },
       'icon': {
-        'en-GB': 'StarRate'
+        'en': 'StarRate'
       },
       'reference': {
-        'en-GB': 'top-rated'
+        'en': 'top-rated'
       }
     },
     'Upcoming': {
       'name': {
-        'en-GB': 'Upcoming'
+        'en': 'Upcoming'
       },
       'label': {
         'it': 'In Arrivo',
-        'en-GB': 'Upcoming'
+        'en': 'Upcoming'
       },
       'icon': {
-        'en-GB': 'RecentActors'
+        'en': 'RecentActors'
       },
       'reference': {
-        'en-GB': 'upcoming'
+        'en': 'upcoming'
       }
     }
   },
   'HomeLink': {
     'Home': {
       'name': {
-        'en-GB': 'Home'
+        'en': 'Home'
       },
       'label': {
         'it': 'Home',
-        'en-GB': 'Home'
+        'en': 'Home'
       },
       'icon': {
-        'en-GB': 'Home'
+        'en': 'Home'
       },
       'reference': {
-        'en-GB': 'home'
+        'en': 'home'
       },
       'path': {
         'it': '/it',
-        'en-GB': '/en'
+        'en': '/en'
       }
     }
   },
   'FavouritesLink': {
     'Favourites': {
       'name': {
-        'en-GB': 'Favourites'
+        'en': 'Favourites'
       },
       'label': {
         'it': 'Miei Preferiti',
-        'en-GB': 'My Favourites'
+        'en': 'My Favourites'
       },
       'icon': {
-        'en-GB': 'Favorite'
+        'en': 'Favorite'
       },
       'reference': {
-        'en-GB': 'favourites'
+        'en': 'favourites'
       },
       'path': {
         'it': '/it/favoriti',
-        'en-GB': '/en/favourites'
+        'en': '/en/favourites'
       }
     }
   }
