@@ -10,7 +10,7 @@ import { isEmpty } from 'lodash-es'
 export const buildSectionTree = (content = [], entries = []) => {
 
   if (isEmpty(content) || isEmpty(entries)) {
-    return []
+    return {}
   }
 
   return content.reduce((link, content) => {

@@ -4,97 +4,87 @@ exports[`transformLayoutResponse returns transformed layout 1`] = `
 Array [
   Object {
     "sections": Object {
-      "MainMenu": Array [
-        Object {
-          "Home": Object {
-            "icon": Object {
-              "en-GB": "Home",
-            },
-            "label": Object {
-              "en-GB": "Home",
-              "it": "Home",
-            },
-            "name": Object {
-              "en-GB": "Home",
-            },
-            "path": Object {
-              "en-GB": "/en",
-              "it": "/it",
-            },
-            "reference": Object {
-              "en-GB": "home",
-            },
+      "MainMenu": Object {
+        "Home": Object {
+          "icon": Object {
+            "en-GB": "Home",
+          },
+          "label": Object {
+            "en-GB": "Home",
+            "it": "Home",
+          },
+          "name": Object {
+            "en-GB": "Home",
+          },
+          "path": Object {
+            "en-GB": "/en",
+            "it": "/it",
+          },
+          "reference": Object {
+            "en-GB": "home",
           },
         },
-        Object {
-          "NowPlaying": Object {
-            "icon": Object {
-              "en-GB": "PlayArrow",
-            },
-            "label": Object {
-              "en-GB": "Now Playing",
-              "it": "Adesso In Onda",
-            },
-            "name": Object {
-              "en-GB": "NowPlaying",
-            },
-            "reference": Object {
-              "en-GB": "now-playing",
-            },
+        "NowPlaying": Object {
+          "icon": Object {
+            "en-GB": "PlayArrow",
+          },
+          "label": Object {
+            "en-GB": "Now Playing",
+            "it": "Adesso In Onda",
+          },
+          "name": Object {
+            "en-GB": "NowPlaying",
+          },
+          "reference": Object {
+            "en-GB": "now-playing",
           },
         },
-        Object {
-          "Popular": Object {
-            "icon": Object {
-              "en-GB": "LocalMovies",
-            },
-            "label": Object {
-              "en-GB": "Popular Movies",
-              "it": "Film Popolari",
-            },
-            "name": Object {
-              "en-GB": "Popular",
-            },
-            "reference": Object {
-              "en-GB": "popular",
-            },
+        "Popular": Object {
+          "icon": Object {
+            "en-GB": "LocalMovies",
+          },
+          "label": Object {
+            "en-GB": "Popular Movies",
+            "it": "Film Popolari",
+          },
+          "name": Object {
+            "en-GB": "Popular",
+          },
+          "reference": Object {
+            "en-GB": "popular",
           },
         },
-        Object {
-          "TopRated": Object {
-            "icon": Object {
-              "en-GB": "StarRate",
-            },
-            "label": Object {
-              "en-GB": "Top Rated",
-              "it": "Premiatissimi",
-            },
-            "name": Object {
-              "en-GB": "TopRated",
-            },
-            "reference": Object {
-              "en-GB": "top-rated",
-            },
+        "TopRated": Object {
+          "icon": Object {
+            "en-GB": "StarRate",
+          },
+          "label": Object {
+            "en-GB": "Top Rated",
+            "it": "Premiatissimi",
+          },
+          "name": Object {
+            "en-GB": "TopRated",
+          },
+          "reference": Object {
+            "en-GB": "top-rated",
           },
         },
-        Object {
-          "Upcoming": Object {
-            "icon": Object {
-              "en-GB": "RecentActors",
-            },
-            "label": Object {
-              "en-GB": "Upcoming",
-              "it": "In Arrivo",
-            },
-            "name": Object {
-              "en-GB": "Upcoming",
-            },
-            "reference": Object {
-              "en-GB": "upcoming",
-            },
+        "Upcoming": Object {
+          "icon": Object {
+            "en-GB": "RecentActors",
+          },
+          "label": Object {
+            "en-GB": "Upcoming",
+            "it": "In Arrivo",
+          },
+          "name": Object {
+            "en-GB": "Upcoming",
+          },
+          "reference": Object {
+            "en-GB": "upcoming",
           },
         },
-      ],
+      },
     },
   },
 ]

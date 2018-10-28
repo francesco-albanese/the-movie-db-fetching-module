@@ -22,12 +22,39 @@ export const rawData = {
                 'linkType': 'Entry',
                 'id': '3ZniJuzxVmoWkooWgmsmGg'
               }
+            },
+            {
+              'sys': {
+                'type': 'Link',
+                'linkType': 'Entry',
+                'id': '1NEP7zAPJaqAsqsOuIAmAk'
+              }
+            },
+            {
+              'sys': {
+                'type': 'Link',
+                'linkType': 'Entry',
+                'id': '64CguxQ9SEwW24YOswUCMI'
+              }
             }
           ]
         }
       },
       'sys': {
         'id': '1HJKN5uu0gcoE8WgGgUOWu'
+      }
+    }
+  ],
+  'errors': [
+    {
+      'sys': {
+        'id': 'notResolvable',
+        'type': 'error'
+      },
+      'details': {
+        'type': 'Link',
+        'linkType': 'Entry',
+        'id': '3ltD4NcKBiyM8AWgAuQuOY'
       }
     }
   ],
@@ -87,10 +114,10 @@ export const rawData = {
               'id': '80351naareny'
             }
           },
-          'id': '3ZniJuzxVmoWkooWgmsmGg',
+          'id': '1NEP7zAPJaqAsqsOuIAmAk',
           'type': 'Entry',
-          'createdAt': '2018-10-15T20:41:13.323Z',
-          'updatedAt': '2018-10-16T17:27:06.116Z',
+          'createdAt': '2018-10-27T17:01:02.136Z',
+          'updatedAt': '2018-10-27T21:45:14.248Z',
           'environment': {
             'sys': {
               'id': 'master',
@@ -98,7 +125,102 @@ export const rawData = {
               'linkType': 'Environment'
             }
           },
-          'revision': 4,
+          'revision': 2,
+          'contentType': {
+            'sys': {
+              'type': 'Link',
+              'linkType': 'ContentType',
+              'id': 'section'
+            }
+          }
+        },
+        'fields': {
+          'name': {
+            'en-GB': 'HomeLink'
+          },
+          'content': {
+            'en-GB': [
+              {
+                'sys': {
+                  'type': 'Link',
+                  'linkType': 'Entry',
+                  'id': 'Ue2O6ImfyUCA2uEKSSaio'
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        'sys': {
+          'space': {
+            'sys': {
+              'type': 'Link',
+              'linkType': 'Space',
+              'id': '80351naareny'
+            }
+          },
+          'id': '3CuhAlWsicM4aUsmCgcog8',
+          'type': 'Entry',
+          'createdAt': '2018-10-27T17:05:50.062Z',
+          'updatedAt': '2018-10-27T17:05:50.062Z',
+          'environment': {
+            'sys': {
+              'id': 'master',
+              'type': 'Link',
+              'linkType': 'Environment'
+            }
+          },
+          'revision': 1,
+          'contentType': {
+            'sys': {
+              'type': 'Link',
+              'linkType': 'ContentType',
+              'id': 'link'
+            }
+          }
+        },
+        'fields': {
+          'name': {
+            'en-GB': 'Favourites'
+          },
+          'label': {
+            'it': 'Miei Preferiti',
+            'en-GB': 'My Favourites'
+          },
+          'icon': {
+            'en-GB': 'Favorite'
+          },
+          'reference': {
+            'en-GB': 'favourites'
+          },
+          'path': {
+            'it': '/it/favoriti',
+            'en-GB': '/en/favourites'
+          }
+        }
+      },
+      {
+        'sys': {
+          'space': {
+            'sys': {
+              'type': 'Link',
+              'linkType': 'Space',
+              'id': '80351naareny'
+            }
+          },
+          'id': '3ZniJuzxVmoWkooWgmsmGg',
+          'type': 'Entry',
+          'createdAt': '2018-10-15T20:41:13.323Z',
+          'updatedAt': '2018-10-27T21:42:32.950Z',
+          'environment': {
+            'sys': {
+              'id': 'master',
+              'type': 'Link',
+              'linkType': 'Environment'
+            }
+          },
+          'revision': 5,
           'contentType': {
             'sys': {
               'type': 'Link',
@@ -150,13 +272,6 @@ export const rawData = {
               }
             ],
             'en-GB': [
-              {
-                'sys': {
-                  'type': 'Link',
-                  'linkType': 'Entry',
-                  'id': '3ltD4NcKBiyM8AWgAuQuOY'
-                }
-              },
               {
                 'sys': {
                   'type': 'Link',
@@ -243,55 +358,6 @@ export const rawData = {
               'id': '80351naareny'
             }
           },
-          'id': '3ltD4NcKBiyM8AWgAuQuOY',
-          'type': 'Entry',
-          'createdAt': '2018-10-16T17:26:11.871Z',
-          'updatedAt': '2018-10-25T20:42:23.254Z',
-          'environment': {
-            'sys': {
-              'id': 'master',
-              'type': 'Link',
-              'linkType': 'Environment'
-            }
-          },
-          'revision': 3,
-          'contentType': {
-            'sys': {
-              'type': 'Link',
-              'linkType': 'ContentType',
-              'id': 'link'
-            }
-          }
-        },
-        'fields': {
-          'name': {
-            'en-GB': 'Home'
-          },
-          'label': {
-            'it': 'Home',
-            'en-GB': 'Home'
-          },
-          'icon': {
-            'en-GB': 'Home'
-          },
-          'reference': {
-            'en-GB': 'home'
-          },
-          'path': {
-            'it': '/it',
-            'en-GB': '/en'
-          }
-        }
-      },
-      {
-        'sys': {
-          'space': {
-            'sys': {
-              'type': 'Link',
-              'linkType': 'Space',
-              'id': '80351naareny'
-            }
-          },
           'id': '625NZojfAQy6OUoKYSsEMy',
           'type': 'Entry',
           'createdAt': '2018-10-15T21:03:38.135Z',
@@ -325,6 +391,101 @@ export const rawData = {
           },
           'reference': {
             'en-GB': 'top-rated'
+          }
+        }
+      },
+      {
+        'sys': {
+          'space': {
+            'sys': {
+              'type': 'Link',
+              'linkType': 'Space',
+              'id': '80351naareny'
+            }
+          },
+          'id': '64CguxQ9SEwW24YOswUCMI',
+          'type': 'Entry',
+          'createdAt': '2018-10-27T17:05:54.339Z',
+          'updatedAt': '2018-10-27T17:05:54.339Z',
+          'environment': {
+            'sys': {
+              'id': 'master',
+              'type': 'Link',
+              'linkType': 'Environment'
+            }
+          },
+          'revision': 1,
+          'contentType': {
+            'sys': {
+              'type': 'Link',
+              'linkType': 'ContentType',
+              'id': 'section'
+            }
+          }
+        },
+        'fields': {
+          'name': {
+            'en-GB': 'FavouritesLink'
+          },
+          'content': {
+            'en-GB': [
+              {
+                'sys': {
+                  'type': 'Link',
+                  'linkType': 'Entry',
+                  'id': '3CuhAlWsicM4aUsmCgcog8'
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        'sys': {
+          'space': {
+            'sys': {
+              'type': 'Link',
+              'linkType': 'Space',
+              'id': '80351naareny'
+            }
+          },
+          'id': 'Ue2O6ImfyUCA2uEKSSaio',
+          'type': 'Entry',
+          'createdAt': '2018-10-27T21:45:07.838Z',
+          'updatedAt': '2018-10-27T21:45:07.838Z',
+          'environment': {
+            'sys': {
+              'id': 'master',
+              'type': 'Link',
+              'linkType': 'Environment'
+            }
+          },
+          'revision': 1,
+          'contentType': {
+            'sys': {
+              'type': 'Link',
+              'linkType': 'ContentType',
+              'id': 'link'
+            }
+          }
+        },
+        'fields': {
+          'name': {
+            'en-GB': 'Home'
+          },
+          'label': {
+            'it': 'Home',
+            'en-GB': 'Home'
+          },
+          'icon': {
+            'en-GB': 'Home'
+          },
+          'reference': {
+            'en-GB': 'home'
+          },
+          'path': {
+            'it': '/it',
+            'en-GB': '/en'
           }
         }
       },
@@ -378,97 +539,110 @@ export const rawData = {
 }
 
 export const sections = {
-  'MainMenu': [
-    {
-      'Home': {
-        'name': {
-          'en-GB': 'Home'
-        },
-        'label': {
-          'it': 'Home',
-          'en-GB': 'Home'
-        },
-        'icon': {
-          'en-GB': 'Home'
-        },
-        'reference': {
-          'en-GB': 'home'
-        },
-        'path': {
-          'it': '/it',
-          'en-GB': '/en'
-        }
+  'MainMenu': {
+    'NowPlaying': {
+      'name': {
+        'en-GB': 'NowPlaying'
+      },
+      'label': {
+        'it': 'Adesso In Onda',
+        'en-GB': 'Now Playing'
+      },
+      'icon': {
+        'en-GB': 'PlayArrow'
+      },
+      'reference': {
+        'en-GB': 'now-playing'
       }
     },
-    {
-      'NowPlaying': {
-        'name': {
-          'en-GB': 'NowPlaying'
-        },
-        'label': {
-          'it': 'Adesso In Onda',
-          'en-GB': 'Now Playing'
-        },
-        'icon': {
-          'en-GB': 'PlayArrow'
-        },
-        'reference': {
-          'en-GB': 'now-playing'
-        }
+    'Popular': {
+      'name': {
+        'en-GB': 'Popular'
+      },
+      'label': {
+        'it': 'Film Popolari',
+        'en-GB': 'Popular Movies'
+      },
+      'icon': {
+        'en-GB': 'LocalMovies'
+      },
+      'reference': {
+        'en-GB': 'popular'
       }
     },
-    {
-      'Popular': {
-        'name': {
-          'en-GB': 'Popular'
-        },
-        'label': {
-          'it': 'Film Popolari',
-          'en-GB': 'Popular Movies'
-        },
-        'icon': {
-          'en-GB': 'LocalMovies'
-        },
-        'reference': {
-          'en-GB': 'popular'
-        }
+    'TopRated': {
+      'name': {
+        'en-GB': 'TopRated'
+      },
+      'label': {
+        'it': 'Premiatissimi',
+        'en-GB': 'Top Rated'
+      },
+      'icon': {
+        'en-GB': 'StarRate'
+      },
+      'reference': {
+        'en-GB': 'top-rated'
       }
     },
-    {
-      'TopRated': {
-        'name': {
-          'en-GB': 'TopRated'
-        },
-        'label': {
-          'it': 'Premiatissimi',
-          'en-GB': 'Top Rated'
-        },
-        'icon': {
-          'en-GB': 'StarRate'
-        },
-        'reference': {
-          'en-GB': 'top-rated'
-        }
-      }
-    },
-    {
-      'Upcoming': {
-        'name': {
-          'en-GB': 'Upcoming'
-        },
-        'label': {
-          'it': 'In Arrivo',
-          'en-GB': 'Upcoming'
-        },
-        'icon': {
-          'en-GB': 'RecentActors'
-        },
-        'reference': {
-          'en-GB': 'upcoming'
-        }
+    'Upcoming': {
+      'name': {
+        'en-GB': 'Upcoming'
+      },
+      'label': {
+        'it': 'In Arrivo',
+        'en-GB': 'Upcoming'
+      },
+      'icon': {
+        'en-GB': 'RecentActors'
+      },
+      'reference': {
+        'en-GB': 'upcoming'
       }
     }
-  ]
+  },
+  'HomeLink': {
+    'Home': {
+      'name': {
+        'en-GB': 'Home'
+      },
+      'label': {
+        'it': 'Home',
+        'en-GB': 'Home'
+      },
+      'icon': {
+        'en-GB': 'Home'
+      },
+      'reference': {
+        'en-GB': 'home'
+      },
+      'path': {
+        'it': '/it',
+        'en-GB': '/en'
+      }
+    }
+  },
+  'FavouritesLink': {
+    'Favourites': {
+      'name': {
+        'en-GB': 'Favourites'
+      },
+      'label': {
+        'it': 'Miei Preferiti',
+        'en-GB': 'My Favourites'
+      },
+      'icon': {
+        'en-GB': 'Favorite'
+      },
+      'reference': {
+        'en-GB': 'favourites'
+      },
+      'path': {
+        'it': '/it/favoriti',
+        'en-GB': '/en/favourites'
+      }
+    }
+  }
 }
 
 export const contentReference = [

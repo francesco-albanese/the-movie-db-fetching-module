@@ -10,19 +10,17 @@ Array [
     },
     "reference": "favourites-page",
     "sections": Object {
-      "Favourites": Array [
-        Object {
-          "MyFavourites": Object {
-            "lineOne": Object {
-              "en-GB": "My Favourites",
-              "it": "I miei preferiti",
-            },
-            "name": Object {
-              "en-GB": "MyFavourites",
-            },
+      "Favourites": Object {
+        "MyFavourites": Object {
+          "lineOne": Object {
+            "en-GB": "My Favourites",
+            "it": "I miei preferiti",
+          },
+          "name": Object {
+            "en-GB": "MyFavourites",
           },
         },
-      ],
+      },
     },
   },
   Object {
@@ -33,19 +31,17 @@ Array [
     },
     "reference": "home-page",
     "sections": Object {
-      "SearchMovies": Array [
-        Object {
-          "SearchMoviesText": Object {
-            "lineOne": Object {
-              "en-GB": "Search Movies",
-              "it": "Cerca Film",
-            },
-            "name": Object {
-              "en-GB": "SearchMoviesText",
-            },
+      "SearchMovies": Object {
+        "SearchMoviesText": Object {
+          "lineOne": Object {
+            "en-GB": "Search Movies",
+            "it": "Cerca Film",
+          },
+          "name": Object {
+            "en-GB": "SearchMoviesText",
           },
         },
-      ],
+      },
     },
   },
   Object {
@@ -56,98 +52,86 @@ Array [
     },
     "reference": "movie-details-page",
     "sections": Object {
-      "MovieDetails": Array [
-        Object {
-          "Title": Object {
-            "lineOne": Object {
-              "en-GB": "Title",
-              "it": "Titolo",
-            },
-            "lineTwo": Object {
-              "en-GB": "Tagline",
-              "it": "Citazione",
-            },
-            "name": Object {
-              "en-GB": "Title",
-            },
+      "MovieDetails": Object {
+        "Cast&Crew": Object {
+          "lineOne": Object {
+            "en-GB": "Cast and crew",
+            "it": "Squadra produzione",
+          },
+          "lineTwo": Object {
+            "en-GB": "Actors",
+            "it": "Attori",
+          },
+          "name": Object {
+            "en-GB": "Cast&Crew",
           },
         },
-        Object {
-          "Overview": Object {
-            "lineOne": Object {
-              "en-GB": "Overview",
-              "it": "Breve Descrizione",
-            },
-            "lineTwo": Object {
-              "en-GB": "Information",
-              "it": "Informazioni",
-            },
-            "name": Object {
-              "en-GB": "Overview",
-            },
+        "DirectorsProducers": Object {
+          "lineOne": Object {
+            "en-GB": "Director",
+            "it": "Regista",
+          },
+          "lineTwo": Object {
+            "en-GB": "Producers",
+            "it": "Produttori",
+          },
+          "name": Object {
+            "en-GB": "DirectorsProducers",
           },
         },
-        Object {
-          "Genre": Object {
-            "lineOne": Object {
-              "en-GB": "Genre",
-              "it": "Genere",
-            },
-            "lineTwo": Object {
-              "en-GB": "Released",
-              "it": "Lancio",
-            },
-            "name": Object {
-              "en-GB": "Genre",
-            },
+        "Genre": Object {
+          "lineOne": Object {
+            "en-GB": "Genre",
+            "it": "Genere",
+          },
+          "lineTwo": Object {
+            "en-GB": "Released",
+            "it": "Lancio",
+          },
+          "name": Object {
+            "en-GB": "Genre",
           },
         },
-        Object {
-          "Runtime": Object {
-            "lineOne": Object {
-              "en-GB": "Runtime",
-              "it": "Durata",
-            },
-            "lineTwo": Object {
-              "en-GB": "Rating",
-              "it": "Voto",
-            },
-            "name": Object {
-              "en-GB": "Runtime",
-            },
+        "Overview": Object {
+          "lineOne": Object {
+            "en-GB": "Overview",
+            "it": "Breve Descrizione",
+          },
+          "lineTwo": Object {
+            "en-GB": "Information",
+            "it": "Informazioni",
+          },
+          "name": Object {
+            "en-GB": "Overview",
           },
         },
-        Object {
-          "Cast&Crew": Object {
-            "lineOne": Object {
-              "en-GB": "Cast and crew",
-              "it": "Squadra produzione",
-            },
-            "lineTwo": Object {
-              "en-GB": "Actors",
-              "it": "Attori",
-            },
-            "name": Object {
-              "en-GB": "Cast&Crew",
-            },
+        "Runtime": Object {
+          "lineOne": Object {
+            "en-GB": "Runtime",
+            "it": "Durata",
+          },
+          "lineTwo": Object {
+            "en-GB": "Rating",
+            "it": "Voto",
+          },
+          "name": Object {
+            "en-GB": "Runtime",
           },
         },
-        Object {
-          "DirectorsProducers": Object {
-            "lineOne": Object {
-              "en-GB": "Director",
-              "it": "Regista",
-            },
-            "lineTwo": Object {
-              "en-GB": "Producers",
-              "it": "Produttori",
-            },
-            "name": Object {
-              "en-GB": "DirectorsProducers",
-            },
+        "Title": Object {
+          "lineOne": Object {
+            "en-GB": "Title",
+            "it": "Titolo",
+          },
+          "lineTwo": Object {
+            "en-GB": "Tagline",
+            "it": "Citazione",
+          },
+          "name": Object {
+            "en-GB": "Title",
           },
         },
-      ],
+      },
     },
   },
 ]

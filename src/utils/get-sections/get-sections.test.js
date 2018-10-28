@@ -23,7 +23,7 @@ describe('utils', () => {
   describe('buildSectionTree', () => {
 
     it('returns empty array if content or entries are missing', () => {
-      expect(buildSectionTree()).toEqual([])
+      expect(buildSectionTree()).toEqual({})
     })
 
     it('returns a well formatted section tree', () => {
