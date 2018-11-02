@@ -6,7 +6,7 @@ describe('transformPortalResponse', () => {
     expect(transformPortalResponse()).toEqual([])
   })
 
-  it('returns transformed pages', () => {
+  it('returns transformed portals', () => {
     const result = transformPortalResponse(data)
     expect(result).toMatchSnapshot()
   })
