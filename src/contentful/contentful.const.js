@@ -17,7 +17,8 @@ export const contentTypes = {
   link: 'link',
   section: 'section',
   text: 'text',
-  page: 'page'
+  page: 'page',
+  portal: 'portal'
 }
 
 export const urls = {
