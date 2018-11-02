@@ -1,7 +1,7 @@
 import { transformPortalResponse } from './portals.transform'
 import { data } from './__fixtures__/portals.transform.fixtures'
 
-describe('transformPageResponse', () => {
+describe('transformPortalResponse', () => {
   it('returns an empty array if data is missing', () => {
     expect(transformPortalResponse()).toEqual([])
   })
