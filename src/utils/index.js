@@ -1,4 +1,5 @@
 export { parseStringifiedData } from './parse-stringified-data'
 export { getFirstObjectKey } from './get-first-object-key'
+export { getMovieImage } from './get-movie-image'
 export { getSections } from './get-sections'
 export { localifyObjectKeys } from './localify-object-keys/'
