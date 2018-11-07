@@ -12,19 +12,15 @@ export const transformAllMoviesResponse = (data = []) => {
     const { 
       genre_ids,
       id,
-      overview,
       poster_path,
-      title,
-      vote_average 
+      title
     } = movie
 
     return {
       genre_ids,
       id,
-      description: `${ overview.substring(0, 100) }...`,
       image: getMovieImage(poster_path),
-      title,
-      vote_average
+      title
     }
 
   })
