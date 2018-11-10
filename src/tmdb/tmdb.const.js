@@ -12,6 +12,7 @@ export const tmdbClient = axios.create({
 
 export const urls = {
   genres: `/genre/movie/list`,
+  movie: movie_id => `/movie/${ movie_id }`,
   nowPlaying: `/movie/now_playing`,
   popular: `/movie/popular`,
   search: `/search/movie`,

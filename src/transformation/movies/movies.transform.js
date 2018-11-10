@@ -16,10 +16,14 @@ export const transformAllMoviesResponse = (data = []) => {
       title
     } = movie
 
+    const image = isEmpty(poster_path) 
+      ? 'https://via.placeholder.com/411x617.png?text=No+Image+Available'
+      : getMovieImage(poster_path)
+
     return {
       genre_ids,
       id,
-      image: getMovieImage(poster_path),
+      image,
       title
     }
 

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`transformMovieDetailsResponse returns a transformed movie 1`] = `
+Object {
+  "background": "undefined/cmAHUFBqg8VO0InX9QdDTZQSg9H.jpg",
+  "description": "Siamo nel 1916. In un piccolo villaggio tedesco, il professore di liceo Kantorek esalta gli ideali bellici e patriottici e convince i propri allievi ad arruolarsi (tranne un giovane chiamato Giuseppe Behn, persuaso poi dai suoi compagni), ma il loro entusiasmo scema immediatamente all'eseguire, durante l'addestramento, gli ordini del sottufficiale Himmelstoss, che con i suoi modi ed il carattere austero educherà i ragazzi alla vera realtà del fronte, ben diversa dalla retorica del professore.  I soldati vengono poi assegnati ad un'unità di veterani, che nei loro confronti si sentono superiori e sono meno accomodanti; questi, senza cibo da due giorni, ridacchiano con un po' di malizia quando i \\"pulcini\\" chiedono loro qualcosa da mangiare. Fortunatamente, hanno dalla loro parte un soldato particolarmente abile nel trovare cibarie, chiamato Stanislaw Katczinsky.",
+  "genres": Array [
+    "Dramma",
+    "Guerra",
+  ],
+  "poster": "undefined/gmNUUGxidAUNDBH4BUvDo1JFNyX.jpg",
+  "rating": 7.7,
+  "release_date": "1930-04-29",
+  "runtime": 133,
+  "title": "All'ovest niente di nuovo",
+}
+`;

@@ -1,5 +1,5 @@
 import { tmdbClient, urls } from '#tmdb/tmdb.const'
-import { transformAllMoviesResponse } from '#transformation'
+import { transformAllMoviesResponse, transformMovieDetailsResponse } from '#transformation'
 
 import { parseStringifiedData } from '#utils'
 
@@ -13,6 +13,27 @@ export const getMovies = async(category, language) => {
       transformResponse: [
         data => parseStringifiedData(data),
         ({ results }) => transformAllMoviesResponse(results)
+      ]
+    })
+
+    return data
+  }
+
+  catch (e) {
+    throw e
+  }
+}
+
+export const getMovieById = async(movie_id, language) => {
+  
+  try {
+    const { data }  = await tmdbClient.get(urls.movie(movie_id), {
+      params: {
+        language
+      },
+      transformResponse: [
+        data => parseStringifiedData(data),
+        data => transformMovieDetailsResponse(data)
       ]
     })
 

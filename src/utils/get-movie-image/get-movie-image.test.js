@@ -5,7 +5,7 @@ describe('utils', () => {
   describe('getMovieImage', () => {
 
     beforeAll(() => {
-      process.env.TMDB_IMAGES_BASE_URL = 'https://image.tmdb.org/t/p/w500'
+      process.env.TMDB_IMAGES_BASE_URL = 'https://image.tmdb.org/t/p/w1280'
     })
 
     it('returns null if empty path', () => {
