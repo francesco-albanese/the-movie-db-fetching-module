@@ -47,7 +47,8 @@ module.exports = {
       '#': path.resolve(__dirname, src),
       '#contentful': path.resolve(__dirname, src, 'contentful'),
       '#tmdb': path.resolve(__dirname, src, 'tmdb'),
-      '#transformation': path.resolve(__dirname, src, 'transformation')
+      '#transformation': path.resolve(__dirname, src, 'transformation'),
+      '#utils': path.resolve(__dirname, src, 'utils')
     },
     plugins: [
       // Prevents users from importing files from outside of src/ (or node_modules/).
