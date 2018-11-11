@@ -33,13 +33,14 @@ module.exports = {
   // Don't attempt to continue if there are any errors.
   bail: true,
   // In production, we only want to load the polyfills and the app code.
-  entry: { index: paths.appIndexJs },
+  entry: [ paths.appIndexJs ],
+  devtool: false,
   output: {
     // The build folder.
     path: paths.appBuild,
-    filename: '[name].js',
+    filename: 'index.js',
     library: 'The-movie-db-fetching',
-    libraryTarget: 'umd'
+    libraryTarget: 'commonjs2'
   },
   resolve: {
     extensions: [ '.web.js', '.mjs', '.js', '.json' ],
@@ -127,22 +128,6 @@ module.exports = {
         ]
       }
     ]
-  },
-  optimization: {
-    minimize: true,
-    runtimeChunk: true,
-    removeAvailableModules: true,
-    removeEmptyChunks: true,
-    mergeDuplicateChunks: true,
-    splitChunks: {
-      cacheGroups: {
-        commons: {
-          test: /[\\/]node_modules[\\/]/,
-          name: 'vendors',
-          chunks: 'all'
-        }
-      }
-    }
   },
   plugins: [
     // Makes some environment variables available to the JS code, for example:
